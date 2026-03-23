@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz</title>
+</head>
+<body>
+    <h2>Welcome to Quiz</h2>
+
+    <p>1. What is the capital of India?</p>
+    <input type="radio" name="q1"> Delhi <br>
+    <input type="radio" name="q1"> Mumbai <br>
+    <input type="radio" name="q1"> Chennai <br>
+
+    <br>
+    <button onclick="submitQuiz()">Submit</button>
+
+    <h3 id="result"></h3>
+
+<script>
+function submitQuiz(){
+    document.getElementById("result").innerText = "Quiz Submitted!";
+}
+</script>
+
+</body>
+</html>
